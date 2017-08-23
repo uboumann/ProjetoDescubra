@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Descubra..."
+        android:text="Irei descobrir seu time..."
         android:textSize="30sp"
         android:textColor="#fff"
         android:textAlignment="center"
@@ -24,9 +24,8 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Clique para começar"
         android:layout_margin="10sp"
         android:padding="20sp"
-        />
+        android:text="Clique para começar" />
 
 </LinearLayout>
