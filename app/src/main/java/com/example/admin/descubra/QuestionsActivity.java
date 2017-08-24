@@ -16,7 +16,7 @@ public class QuestionsActivity extends AppCompatActivity {
     private Button btnConfirm;
     private RadioButton bRadio1, bRadio2, bRadio3, bRadio4;
     private TextView question;
-    private String Res;
+    private String res;
 
 
     @Override
@@ -84,7 +84,7 @@ public class QuestionsActivity extends AppCompatActivity {
         bRadio3 = (RadioButton) findViewById(R.id.respost3);
         bRadio4 = (RadioButton) findViewById(R.id.respost4);
         btnConfirm = (Button) findViewById(R.id.btn_click);
-        Res="";
+        res ="";
         if (value != 0) {
             question.setText("Quantos mundiais seu time tem?");
             bRadio1.setText("Nenhum");
@@ -100,22 +100,22 @@ public class QuestionsActivity extends AppCompatActivity {
                     switch (verifyRadio) {
 
                         case R.id.respost1: {
-                            Res="res1";
+                            res ="res1";
                             break;
                         }
                         case R.id.respost2: {
-                            Res="res1";
+                            res ="res1";
                             break;
                         }
 
 
                         case R.id.respost3: {
-                            Res="res3";
+                            res ="res3";
 
                             break;
                         }
                         case R.id.respost4: {
-                            Res="res3";
+                            res ="res3";
                             break;
                         }
 
@@ -127,6 +127,6 @@ public class QuestionsActivity extends AppCompatActivity {
             });
         }
 
-        return Res;
+        return res;
     }
 }
